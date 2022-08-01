@@ -7,10 +7,13 @@
 
 body{
     background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 #card{
-    position: absolute;
     width: 250px;
     margin: auto;
     background-color: hsl(0, 0%, 100%);
@@ -18,9 +21,6 @@ body{
     padding: 15px;
     text-align: center;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.048);
-    top: 50%;
-    right: 50%;
-    transform: translate(50%, -50%);
 }
 
 img{
