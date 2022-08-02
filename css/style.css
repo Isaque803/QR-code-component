@@ -18,7 +18,7 @@ body{
     margin: auto;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
-    padding: 15px;
+    padding: 0.93rem;
     text-align: center;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.048);
 }
@@ -33,14 +33,14 @@ p{
 }
 
 .paragraph{
-    font-size: 15px;
+    font-size: 0.93rem;
     margin-bottom: 20px;
     color:hsl(220, 15%, 55%);
 }
 
 .title{
     font-weight: 700;
-    font-size: 20px;
-    margin: 15px 0px;
+    font-size: 1.25rem;
+    margin: 0.93rem 0px;
     color: hsl(218, 44%, 22%);
 }
